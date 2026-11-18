@@ -1,178 +1,113 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>My Embed Site</title>
-
-<meta name="theme-color" content="#050505">
-<meta name="description" content="My personal embed website">
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+<html><head>
+        <title>Study.com | embed</title>
+        <link rel="manifest" href="/stuff/json/alsomanifest.json">
+        <link rel="icon" href="/stuff/logo.png">
+        <link rel="stylesheet" href="/stuff/css/styles.css">
+        <link rel="stylesheet" href="/stuff/css/alert.css">
+        <link rel="icon" href="/stuff/logo.png">
+        <meta property="og:title" content="IXL | Math, Language Arts, Science, Social Studies, and Spanish">
+        <meta property="og:site_name" content="IXL Learning">
+        <meta name="theme-color" content="#00ffa6">
+        <meta name="msapplication-TileColor" content="#00ffa6">
+        <meta property="og:image" content="/stuff/logo.png">
+        <meta name="description" content="IXL is the world's most popular subscription-based learning site for K–12. Used by over 17 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills.">
+        <meta property="og:description" content="IXL is the world's most popular subscription-based learning site for K–12. Used by over 17 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills.">
+        <script src="/1nd2h/uq079set.js"></script>
+        <script src="/stuff/js/embed.js" defer=""></script>
+    <script src="/toj9sr/xlsdptsb8u.js"></script><script src="/6curt/6g43bmqi.js"></script><script src="/rxcb2/ma9gw3zy.js"></script></head>
+    <body style="background-color: black;">
+        <div id="fadeout" style="opacity: 0;">
+        <div id="loadingbox">
+            <h1 id="theh1">deploying proxy....</h1>
+            <p id="thep">this might take a bit</p>
+        </div>
+            <span class="loader"></span>
+        <div id="teacher-setup-dialogs-container"><canvas class="particles-js-canvas-el" width="1325" height="948" style="width: 100%; height: 100%;"></canvas></div>
+    </div>
+        <iframe id="embedframe" allowfullscreen="" src="https://frogiesarcade.win/7f5m14/171y8v/888a86f8/jgyf0ju3/aHR0cHM6Ly95b3V0dWJlLmNvbS8" name="wh2iwtjc"></iframe>
+        <script src="/stuff/js/particles.js"></script>
+        <script src="/stuff/js/embedparticles.js"></script>
+        <script>
+          function lowtaperfade(){
+            document.getElementById('fadeout').style = "opacity: 0;"
+          }
+          function highslipperybuzz(){
+            document.getElementById('fadeout').style = "opacity: 1;"
+            document.getElementById('theh1').innerText = "this is taking a while..."
+            document.getElementById('thep').innerText = "the server might be overloaded, or the requested site is slow right now."
+          }
+        </script>
+        <style>
+          #embedframe{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+          }
+          #loadingbox{
+            position: absolute;
+            z-index: 9999;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  border-radius: 35px;
+  color: white;
+  padding: 30px;
+  line-height: 1.8;
+  overflow: clip;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+          }
+            .loader {
+  width: 100%;
+  height: 4.8px;
+  display: inline-block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 9999;
+  left: -0;
+  bottom: 0;
+  padding: 0;
+  margin: none;
 }
-
-body {
-    background: #050505;
-    color: white;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
-}
-
-#viewer {
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    background: black;
-}
-
-#loading {
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    background: #050505;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transition: opacity .5s ease;
-}
-
-#loading.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
-#loading h1 {
-    font-size: 27px;
-    margin-bottom: 10px;
-}
-
-#loading p {
-    color: #999;
-    font-size: 14px;
-}
-
-.loader {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5px;
-    background: #222;
-    overflow: hidden;
-}
-
 .loader::after {
-    content: "";
-    display: block;
-    width: 180px;
-    height: 100%;
-    background: #00ffa6;
-    animation: loading 1.5s infinite linear;
+  content: '';
+  width: 192px;
+  height: 4.8px;
+  background: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  animation: animloader 2s linear infinite;
+  z-index: 9999;
+  bottom: 0;
+  padding: 0;
+  margin: none;
 }
-
-@keyframes loading {
-    from { transform: translateX(-180px); }
-    to { transform: translateX(100vw); }
+#fadeout{
+    transition: all ease-in-out .4s;
 }
-
-#particles {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    opacity: .3;
+#teacher-setup-dialogs-container{
+  filter: drop-shadow(0px 0px 10px #ffffff);
 }
-</style>
-</head>
-
-<body>
-
-<canvas id="particles"></canvas>
-
-<div id="loading">
-    <h1 id="loadingTitle">Loading...</h1>
-    <p id="loadingText">Please wait while the page loads.</p>
-    <div class="loader"></div>
-</div>
-
-<iframe
-    id="viewer"
-    src="content.html"
-    title="Embedded content"
-    allowfullscreen>
-</iframe>
-
-<script>
-// Loading screen
-const viewer = document.getElementById("viewer");
-const loading = document.getElementById("loading");
-
-viewer.addEventListener("load", () => {
-    loading.classList.add("hidden");
-});
-
-// Show a delayed loading message if needed
-setTimeout(() => {
-    if (!loading.classList.contains("hidden")) {
-        document.getElementById("loadingTitle").textContent =
-            "Taking longer than expected...";
-        document.getElementById("loadingText").textContent =
-            "The content may be unavailable.";
-    }
-}, 10000);
-
-// Particle background
-const canvas = document.getElementById("particles");
-const ctx = canvas.getContext("2d");
-
-function resize() {
-    canvas.width = innerWidth;
-    canvas.height = innerHeight;
+@keyframes animloader {
+  0% {
+    left: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(0%);
+  }
 }
-
-resize();
-window.addEventListener("resize", resize);
-
-let particles = [];
-
-for (let i = 0; i < 65; i++) {
-    particles.push({
-        x: Math.random() * innerWidth,
-        y: Math.random() * innerHeight,
-        size: Math.random() * 2 + 1,
-        speed: Math.random() * .5 + .2
-    });
-}
-
-function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    particles.forEach(p => {
-        ctx.fillStyle = "#00ffa6";
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-        ctx.fill();
-
-        p.y -= p.speed;
-
-        if (p.y < 0) {
-            p.y = canvas.height;
-            p.x = Math.random() * canvas.width;
-        }
-    });
-
-    requestAnimationFrame(animate);
-}
-
-animate();
-</script>
-
-</body>
-</html>
+    
+        </style>
+    
+</body></html>
