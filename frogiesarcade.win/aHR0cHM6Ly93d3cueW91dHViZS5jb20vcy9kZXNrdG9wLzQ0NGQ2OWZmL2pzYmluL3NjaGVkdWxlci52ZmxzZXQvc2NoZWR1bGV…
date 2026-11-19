@@ -1,0 +1,599 @@
+$Hednoc([157, 0, 0, 0, 11, 0, 0, 0, 27, 0, 0, 0, 0, 119, 0, 0, 0, 28, 0, 0, 0, 0, 160, 0, 0, 0, 28, 0, 0, 0, 0, 216, 0, 0, 0, 1, 0, 0, 0, 0, 218, 0, 0, 0, 1, 0, 0, 0, 0, 47, 1, 0, 0, 28, 0, 0, 0, 0, 131, 1, 0, 0, 9, 0, 0, 0, 0, 141, 1, 0, 0, 2, 0, 0, 0, 0, 178, 1, 0, 0, 28, 0, 0, 0, 0, 125, 2, 0, 0, 9, 0, 0, 0, 0, 135, 2, 0, 0, 2, 0, 0, 0, 0, 241, 2, 0, 0, 28, 0, 0, 0, 0, 84, 3, 0, 0, 9, 0, 0, 0, 0, 94, 3, 0, 0, 2, 0, 0, 0, 0, 123, 3, 0, 0, 9, 0, 0, 0, 0, 133, 3, 0, 0, 2, 0, 0, 0, 0, 141, 3, 0, 0, 9, 0, 0, 0, 0, 160, 3, 0, 0, 2, 0, 0, 0, 0, 168, 3, 0, 0, 9, 0, 0, 0, 0, 178, 3, 0, 0, 2, 0, 0, 0, 0, 167, 4, 0, 0, 29, 0, 0, 0, 0, 240, 4, 0, 0, 1, 0, 0, 0, 0, 250, 4, 0, 0, 1, 0, 0, 0, 0, 58, 5, 0, 0, 29, 0, 0, 0, 0, 113, 5, 0, 0, 29, 0, 0, 0, 0, 178, 5, 0, 0, 9, 0, 0, 0, 0, 190, 5, 0, 0, 2, 0, 0, 0, 0, 219, 5, 0, 0, 29, 0, 0, 0, 0, 51, 6, 0, 0, 9, 0, 0, 0, 0, 75, 6, 0, 0, 2, 0, 0, 0, 0, 224, 6, 0, 0, 29, 0, 0, 0, 0, 66, 7, 0, 0, 29, 0, 0, 0, 0, 109, 7, 0, 0, 29, 0, 0, 0, 0, 170, 7, 0, 0, 1, 0, 0, 0, 0, 180, 7, 0, 0, 1, 0, 0, 0, 0, 224, 7, 0, 0, 1, 0, 0, 0, 0, 226, 7, 0, 0, 1, 0, 0, 0, 0, 9, 8, 0, 0, 29, 0, 0, 0, 0, 154, 8, 0, 0, 29, 0, 0, 0, 0, 41, 9, 0, 0, 29, 0, 0, 0, 0, 223, 9, 0, 0, 29, 0, 0, 0, 0, 50, 10, 0, 0, 9, 0, 0, 0, 0, 61, 10, 0, 0, 9, 0, 0, 0, 0, 71, 10, 0, 0, 2, 0, 0, 0, 0, 74, 10, 0, 0, 2, 0, 0, 0, 0, 123, 10, 0, 0, 29, 0, 0, 0, 0, 230, 10, 0, 0, 9, 0, 0, 0, 0, 240, 10, 0, 0, 2, 0, 0, 0, 0, 247, 10, 0, 0, 9, 0, 0, 0, 0, 1, 11, 0, 0, 2, 0, 0, 0, 0, 24, 11, 0, 0, 9, 0, 0, 0, 0, 34, 11, 0, 0, 2, 0, 0, 0, 0, 42, 11, 0, 0, 9, 0, 0, 0, 0, 52, 11, 0, 0, 2, 0, 0, 0, 0, 60, 11, 0, 0, 9, 0, 0, 0, 0, 70, 11, 0, 0, 2, 0, 0, 0, 0, 79, 11, 0, 0, 9, 0, 0, 0, 0, 89, 11, 0, 0, 2, 0, 0, 0, 0, 109, 11, 0, 0, 29, 0, 0, 0, 0, 215, 11, 0, 0, 29, 0, 0, 0, 0, 32, 12, 0, 0, 9, 0, 0, 0, 0, 55, 12, 0, 0, 2, 0, 0, 0, 0, 69, 12, 0, 0, 29, 0, 0, 0, 0, 140, 12, 0, 0, 29, 0, 0, 0, 0, 118, 13, 0, 0, 29, 0, 0, 0, 0, 218, 13, 0, 0, 29, 0, 0, 0, 0, 49, 14, 0, 0, 9, 0, 0, 0, 0, 59, 14, 0, 0, 2, 0, 0, 0, 0, 194, 14, 0, 0, 29, 0, 0, 0, 0, 146, 15, 0, 0, 9, 0, 0, 0, 0, 162, 15, 0, 0, 2, 0, 0, 0, 0, 117, 16, 0, 0, 29, 0, 0, 0, 0, 132, 18, 0, 0, 9, 0, 0, 0, 0, 142, 18, 0, 0, 2, 0, 0, 0, 0, 148, 18, 0, 0, 9, 0, 0, 0, 0, 158, 18, 0, 0, 2, 0, 0, 0, 0, 177, 18, 0, 0, 29, 0, 0, 0, 0, 22, 19, 0, 0, 29, 0, 0, 0, 0, 100, 19, 0, 0, 9, 0, 0, 0, 0, 110, 19, 0, 0, 2, 0, 0, 0, 0, 157, 19, 0, 0, 9, 0, 0, 0, 0, 167, 19, 0, 0, 2, 0, 0, 0, 0, 251, 19, 0, 0, 29, 0, 0, 0, 0, 63, 20, 0, 0, 9, 0, 0, 0, 0, 73, 20, 0, 0, 2, 0, 0, 0, 0, 128, 20, 0, 0, 29, 0, 0, 0, 0, 87, 21, 0, 0, 9, 0, 0, 0, 0, 97, 21, 0, 0, 2, 0, 0, 0, 0, 200, 21, 0, 0, 29, 0, 0, 0, 0, 29, 22, 0, 0, 29, 0, 0, 0, 0, 76, 22, 0, 0, 1, 0, 0, 0, 0, 97, 22, 0, 0, 29, 0, 0, 0, 0, 183, 22, 0, 0, 9, 0, 0, 0, 0, 199, 22, 0, 0, 2, 0, 0, 0, 0, 17, 23, 0, 0, 29, 0, 0, 0, 0, 131, 23, 0, 0, 29, 0, 0, 0, 0, 185, 23, 0, 0, 29, 0, 0, 0, 0, 240, 23, 0, 0, 29, 0, 0, 0, 0, 123, 24, 0, 0, 29, 0, 0, 0, 0, 224, 24, 0, 0, 29, 0, 0, 0, 0, 73, 25, 0, 0, 9, 0, 0, 0, 0, 83, 25, 0, 0, 2, 0, 0, 0, 0, 98, 25, 0, 0, 9, 0, 0, 0, 0, 108, 25, 0, 0, 2, 0, 0, 0, 0, 180, 25, 0, 0, 29, 0, 0, 0, 0, 254, 25, 0, 0, 9, 0, 0, 0, 0, 8, 26, 0, 0, 2, 0, 0, 0, 0, 16, 26, 0, 0, 9, 0, 0, 0, 0, 35, 26, 0, 0, 2, 0, 0, 0, 0, 81, 26, 0, 0, 29, 0, 0, 0, 0, 214, 26, 0, 0, 9, 0, 0, 0, 0, 224, 26, 0, 0, 2, 0, 0, 0, 0, 239, 26, 0, 0, 9, 0, 0, 0, 0, 249, 26, 0, 0, 2, 0, 0, 0, 0, 21, 27, 0, 0, 1, 0, 0, 0, 0, 70, 27, 0, 0, 9, 0, 0, 0, 0, 80, 27, 0, 0, 2, 0, 0, 0, 0, 95, 27, 0, 0, 9, 0, 0, 0, 0, 105, 27, 0, 0, 2, 0, 0, 0, 0, 207, 27, 0, 0, 9, 0, 0, 0, 0, 217, 27, 0, 0, 2, 0, 0, 0, 0, 254, 27, 0, 0, 9, 0, 0, 0, 0, 8, 28, 0, 0, 2, 0, 0, 0, 0, 23, 28, 0, 0, 9, 0, 0, 0, 0, 33, 28, 0, 0, 2, 0, 0, 0, 0, 147, 28, 0, 0, 29, 0, 0, 0, 0, 43, 30, 0, 0, 29, 0, 0, 0, 0, 30, 31, 0, 0, 29, 0, 0, 0, 0, 83, 32, 0, 0, 29, 0, 0, 0, 0, 177, 32, 0, 0, 1, 0, 0, 0, 0, 179, 32, 0, 0, 1, 0, 0, 0, 0, 33, 33, 0, 0, 29, 0, 0, 0, 0, 225, 33, 0, 0, 29, 0, 0, 0, 0, 51, 34, 0, 0, 9, 0, 0, 0, 0, 69, 34, 0, 0, 2, 0, 0, 0, 0, 92, 34, 0, 0, 29, 0, 0, 0, 0, 196, 34, 0, 0, 29, 0, 0, 0, 0, 245, 34, 0, 0, 9, 0, 0, 0, 0, 255, 34, 0, 0, 2, 0, 0, 0, 0, 34, 35, 0, 0, 29, 0, 0, 0, 0, 96, 35, 0, 0, 29, 0, 0, 0, 0, 154, 35, 0, 0, 9, 0, 0, 0, 0, 165, 35, 0, 0, 2, 0, 0, 0, 0, 182, 35, 0, 0, 9, 0, 0, 0, 0, 192, 35, 0, 0, 2, 0, 0, 0, 0, 210, 35, 0, 0, 9, 0, 0, 0, 0, 220, 35, 0, 0, 2, 0, 0, 0, 0, 233, 35, 0, 0, 9, 0, 0, 0, 0, 243, 35, 0, 0, 2, 0, 0, 0, 0, 30, 36, 0, 0, 29, 0, 0, 0, 0, 79, 36, 0, 0, 29, 0, 0, 0, 0, 158, 36, 0, 0, 29, 0, 0, 0, 0, 18, 37, 0, 0, 29, 0, 0, 0, 0, 101, 37, 0, 0, 29, 0, 0, 0, 0, 157, 37, 0, 0, 29, 0, 0, 0, 0, 233, 37, 0, 0, 29, 0, 0, 0, 0, 61, 38, 0, 0, 29, 0, 0, 0, 0], "a50adac81ef");
+(function() /*scrbCzNQ 11 a50adac81ef*/
+{
+    'use strict';
+    var f, aa = typeof Object.create == "function" ? Object.create : function(a) /*scrbCzNQ 119 a50adac81ef*/
+    {
+        function b() /*scrbCzNQ 160 a50adac81ef*/
+        {}
+        b.prototype = a;
+        return new (b)
+    }
+    , g = typeof Object.defineProperties == "function" ? Object.defineProperty : function(a, b, c) /*scrbCzNQ 303 a50adac81ef*/
+    {
+        if (a == Array.prototype || a == Object.prototype)
+            return a;
+        a[$l4OzcL((b))] = c.value;
+        return a
+    }
+    ;
+    function ba(a) /*scrbCzNQ 434 a50adac81ef*/
+    {
+        a = ["object" == typeof globalThis && globalThis, a, "object" == typeof window && window, "object" == typeof self && self, "object" == typeof global && global];
+        for (var b = 0; b < a.length; ++b) {
+            var c = a[$l4OzcL((b))];
+            if (c && c.Math == Math)
+                return c
+        }
+        throw Error("Cannot find global object");
+    }
+    var ca = ba(this);
+    function h(a, b) /*scrbCzNQ 753 a50adac81ef*/
+    {
+        if (b)
+            a: {
+                var c = ca;
+                a = a.split(".");
+                for (var d = 0; d < a.length - 1; d++) {
+                    var e = a[$l4OzcL((d))];
+                    if (!(e in c))
+                        break a;
+                    c = c[$l4OzcL((e))]
+                }
+                a = a[$l4OzcL((a.length - 1))];
+                d = c[$l4OzcL((a))];
+                b = b(d);
+                b != d && b != null && g(c, a, {
+                    configurable: !0,
+                    writable: !0,
+                    value: b
+                })
+            }
+    }
+    var l;
+    if (typeof Object.setPrototypeOf == "function")
+        l = Object.setPrototypeOf;
+    else {
+        var m;
+        a: {
+            var da = {
+                a: !0
+            }
+              , n = {};
+            try {
+                n.__proto__ = da;
+                m = n.a;
+                break a
+            } catch (a) {}
+            m = !1
+        }
+        l = m ? function(a, b) /*scrbCzNQ 1191 a50adac81ef*/
+        {
+            a.__proto__ = b;
+            if (a.__proto__ !== b)
+                throw new (TypeError)(a + " is not extensible");
+            return a
+        }
+        : null
+    }
+    var p = l;
+    function ea(a) /*scrbCzNQ 1338 a50adac81ef*/
+    {
+        var b = 0;
+        return function() /*scrbCzNQ 1393 a50adac81ef*/
+        {
+            return b < a.length ? {
+                done: !1,
+                value: a[$l4OzcL((b++))]
+            } : {
+                done: !0
+            }
+        }
+    }
+    function r() /*scrbCzNQ 1499 a50adac81ef*/
+    {
+        var a = fa
+          , b = typeof Symbol != "undefined" && Symbol.iterator && a[$l4OzcL((Symbol.iterator))];
+        if (b)
+            return b.call(a);
+        if (typeof a.length == "number")
+            return {
+                next: ea(a)
+            };
+        throw Error(String(a) + " is not an iterable or ArrayLike");
+    }
+    function t(a, b) /*scrbCzNQ 1760 a50adac81ef*/
+    {
+        var c;
+        b && !b.done && (c = a["return"]) && c.call(a)
+    }
+    h("Symbol", function(a) /*scrbCzNQ 1858 a50adac81ef*/
+    {
+        function b(k) /*scrbCzNQ 1901 a50adac81ef*/
+        {
+            if (this instanceof b)
+                throw new (TypeError)("Symbol is not a constructor");
+            return new (c)(d + (k || "") + "_" + e++,k)
+        }
+        function c(k, q) /*scrbCzNQ 2057 a50adac81ef*/
+        {
+            this.h = k;
+            g(this, "description", {
+                configurable: !0,
+                writable: !0,
+                value: q
+            })
+        }
+        if (a)
+            return a;
+        c.prototype.toString = function() /*scrbCzNQ 2202 a50adac81ef*/
+        {
+            return this.h
+        }
+        ;
+        var d = "jscomp_symbol_" + (Math.random() * 1E9 >>> 0) + "_"
+          , e = 0;
+        return b
+    });
+    h("Symbol.dispose", function(a) /*scrbCzNQ 2345 a50adac81ef*/
+    {
+        return a ? a : Symbol("Symbol.dispose")
+    });
+    /*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+    var u = this || self;
+    function v(a) /*scrbCzNQ 2527 a50adac81ef*/
+    {
+        a = a.split(".");
+        for (var b = u, c = 0; c < a.length; c++)
+            if (b = b[$l4OzcL((a[$l4OzcL((c))]))],
+            b == null)
+                return null;
+        return b
+    }
+    function w(a, b) /*scrbCzNQ 2683 a50adac81ef*/
+    {
+        a = a.split(".");
+        for (var c = u, d; a.length && (d = a.shift()); )
+            a.length || b === void 0 ? c[$l4OzcL((d))] && c[$l4OzcL((d))] !== Object.prototype[$l4OzcL((d))] ? c = c[$l4OzcL((d))] : c = c[$l4OzcL((d))] = {} : c[$l4OzcL((d))] = b
+    }
+    ;function x() /*scrbCzNQ 2925 a50adac81ef*/
+    {
+        this.B = this.B;
+        this.D = this.D
+    }
+    x.prototype.B = !1;
+    x.prototype.dispose = function() /*scrbCzNQ 3031 a50adac81ef*/
+    {
+        this.B || (this.B = !0,
+        this.G())
+    }
+    ;
+    x.prototype[$l4OzcL((Symbol.dispose))] = function() /*scrbCzNQ 3141 a50adac81ef*/
+    {
+        this.dispose()
+    }
+    ;
+    x.prototype.G = function() /*scrbCzNQ 3212 a50adac81ef*/
+    {
+        if (this.D)
+            for (; this.D.length; )
+                this.D.shift()()
+    }
+    ;
+    var y = u.window, z, A, B = (y == null ? void 0 : (z = y.yt) == null ? void 0 : z.config_) || (y == null ? void 0 : (A = y.ytcfg) == null ? void 0 : A.data_) || {};
+    w("yt.config_", B);
+    function C(a) /*scrbCzNQ 3446 a50adac81ef*/
+    {
+        a = D(a);
+        return typeof a === "string" && a === "false" ? !1 : !!a
+    }
+    function D(a, b) /*scrbCzNQ 3546 a50adac81ef*/
+    {
+        var c = {};
+        a = ("EXPERIMENT_FLAGS" in B ? B.EXPERIMENT_FLAGS : c)[$l4OzcL((a))];
+        return a !== void 0 ? a : b
+    }
+    ;var E = 1E3 / 60
+      , ha = Number(D("web_emulated_idle_callback_delay", 300) || 0)
+      , F = E - 3
+      , fa = [8, 5, 4, 3, 2, 1, 0];
+    function G(a) /*scrbCzNQ 3778 a50adac81ef*/
+    {
+        a = a === void 0 ? {} : a;
+        x.call(this);
+        var b = this;
+        this.j = [];
+        this.i = {};
+        this.H = this.h = 0;
+        this.F = this.m = !1;
+        this.A = [];
+        this.C = this.I = !1;
+        var c = r()
+          , d = c.next();
+        try {
+            for (; !d.done; d = c.next())
+                this.j[$l4OzcL((d.value))] = []
+        } finally {
+            t(c, d)
+        }
+        this.l = 0;
+        this.T = a.timeout || 1;
+        this.v = F;
+        this.o = 0;
+        this.J = this.V.bind(this);
+        this.S = this.W.bind(this);
+        this.N = this.M.bind(this);
+        this.O = this.U.bind(this);
+        this.P = this.K.bind(this);
+        this.R = function() /*scrbCzNQ 4213 a50adac81ef*/
+        {
+            b.K(performance.now())
+        }
+        ;
+        this.L = !!window.requestIdleCallback && !!window.cancelIdleCallback && !C("disable_scheduler_requestIdleCallback");
+        ((this.u = a.useRaf !== !1 && !!window.requestAnimationFrame) || C("enable_scheduler_simulate_raf")) && document.addEventListener("visibilitychange", this.J)
+    }
+    G.prototype = aa(x.prototype);
+    G.prototype.constructor = G;
+    if (p)
+        p(G, x);
+    else
+        for (var H in x)
+            if (H != "prototype")
+                if (Object.defineProperties) {
+                    var I = Object.getOwnPropertyDescriptor(x, H);
+                    I && Object.defineProperty(G, H, I)
+                } else
+                    G[$l4OzcL((H))] = x[$l4OzcL((H))];
+    function J(a, b) /*scrbCzNQ 4785 a50adac81ef*/
+    {
+        var c = Date.now();
+        K(b);
+        b = Date.now() - c;
+        a.m || (a.v -= b)
+    }
+    function L(a, b, c, d) /*scrbCzNQ 4886 a50adac81ef*/
+    {
+        ++a.H;
+        if (c === 10)
+            return J(a, b),
+            a.H;
+        var e = a.H;
+        a.i[$l4OzcL((e))] = b;
+        a.m && !d ? a.A.push({
+            id: e,
+            priority: c
+        }) : (a.j[$l4OzcL((c))].push(e),
+        a.F || a.m || (a.h !== 0 && M(a) !== a.o && N(a),
+        a.start()));
+        return e
+    }
+    function O(a) /*scrbCzNQ 5115 a50adac81ef*/
+    {
+        a.A.length = 0;
+        for (var b = 5; b >= 0; b--)
+            a.j[$l4OzcL((b))].length = 0;
+        a.j[8].length = 0;
+        a.i = {};
+        N(a)
+    }
+    function M(a) /*scrbCzNQ 5248 a50adac81ef*/
+    {
+        var b = C("enable_scheduler_simulate_raf");
+        if (a.j[8].length) {
+            if (a.C)
+                return 4;
+            if (b) {
+                if (!document.hidden)
+                    return a.u ? 3 : 5
+            } else if (!document.hidden && a.u)
+                return 3
+        }
+        for (var c = 5; c >= a.l; c--)
+            if (a.j[$l4OzcL((c))].length > 0)
+                return c > 0 ? b ? document.hidden ? 2 : a.u ? 3 : 5 : !document.hidden && a.u ? 3 : 2 : 1;
+        return 0
+    }
+    function P(a) /*scrbCzNQ 5576 a50adac81ef*/
+    {
+        var b = v("yt.logging.errors.log");
+        b && b(a)
+    }
+    function K(a) /*scrbCzNQ 5661 a50adac81ef*/
+    {
+        try {
+            a()
+        } catch (b) {
+            ;P(b)
+        }
+    }
+    function Q(a) /*scrbCzNQ 5729 a50adac81ef*/
+    {
+        var b = r()
+          , c = b.next();
+        try {
+            for (; !c.done; c = b.next())
+                if (a.j[$l4OzcL((c.value))].length)
+                    return !0
+        } finally {
+            t(b, c)
+        }
+        return !1
+    }
+    f = G.prototype;
+    f.U = function(a) /*scrbCzNQ 5905 a50adac81ef*/
+    {
+        var b = void 0;
+        a && (b = a.timeRemaining());
+        this.I = !0;
+        R(this, b);
+        this.I = !1
+    }
+    ;
+    f.W = function() /*scrbCzNQ 6019 a50adac81ef*/
+    {
+        R(this)
+    }
+    ;
+    f.M = function() /*scrbCzNQ 6073 a50adac81ef*/
+    {
+        S(this)
+    }
+    ;
+    f.K = function(a) /*scrbCzNQ 6128 a50adac81ef*/
+    {
+        this.C = !0;
+        var b = M(this);
+        b === 4 && b !== this.o && (N(this),
+        this.start());
+        R(this, void 0, a);
+        this.C = !1
+    }
+    ;
+    f.V = function() /*scrbCzNQ 6267 a50adac81ef*/
+    {
+        document.hidden || S(this);
+        this.h && (N(this),
+        this.start())
+    }
+    ;
+    function S(a) /*scrbCzNQ 6368 a50adac81ef*/
+    {
+        N(a);
+        a.m = !0;
+        for (var b = Date.now(), c = a.j[8]; c.length; ) {
+            var d = c.shift()
+              , e = a.i[$l4OzcL((d))];
+            delete a.i[$l4OzcL((d))];
+            e && K(e)
+        }
+        T(a);
+        a.m = !1;
+        Q(a) && a.start();
+        a.v -= Date.now() - b
+    }
+    function T(a) /*scrbCzNQ 6580 a50adac81ef*/
+    {
+        for (var b = 0, c = a.A.length; b < c; b++) {
+            var d = a.A[$l4OzcL((b))];
+            a.j[$l4OzcL((d.priority))].push(d.id)
+        }
+        a.A.length = 0
+    }
+    function R(a, b, c) /*scrbCzNQ 6737 a50adac81ef*/
+    {
+        a.C && a.o === 4 && a.h || N(a);
+        a.m = !0;
+        b = Date.now() + (b || a.v);
+        for (var d = a.j[5]; d.length; ) {
+            var e = d.shift()
+              , k = a.i[$l4OzcL((e))];
+            delete a.i[$l4OzcL((e))];
+            if (k)
+                try {
+                    k(c)
+                } catch (na) {
+                    ;P(na)
+                }
+        }
+        for (d = a.j[4]; d.length; )
+            c = d.shift(),
+            e = a.i[$l4OzcL((c))],
+            delete a.i[$l4OzcL((c))],
+            e && K(e);
+        d = a.I ? 0 : 1;
+        d = a.l > d ? a.l : d;
+        if (!(Date.now() >= b)) {
+            do {
+                a: {
+                    e = a;
+                    k = d;
+                    for (var q = 3; q >= k; q--)
+                        for (c = e.j[$l4OzcL((q))]; c.length; ) {
+                            var Y = c.shift()
+                              , Z = e.i[$l4OzcL((Y))];
+                            delete e.i[$l4OzcL((Y))];
+                            if (Z) {
+                                c = Z;
+                                break a
+                            }
+                        }
+                    c = null
+                }
+                c && K(c)
+            } while (c && Date.now() < b)
+        }
+        a.m = !1;
+        T(a);
+        a.v = F;
+        Q(a) && a.start()
+    }
+    f.start = function() /*scrbCzNQ 7315 a50adac81ef*/
+    {
+        this.F = !1;
+        if (this.h === 0)
+            switch (this.o = M(this),
+            this.o) {
+            case 1:
+                var a = this.O;
+                this.h = this.L ? window.requestIdleCallback(a, {
+                    timeout: 3E3
+                }) : window.setTimeout(a, ha);
+                break;
+            case 2:
+                this.h = window.setTimeout(this.S, this.T);
+                break;
+            case 3:
+                this.h = window.requestAnimationFrame(this.P);
+                break;
+            case 4:
+                this.h = window.setTimeout(this.N, 0);
+                break;
+            case 5:
+                this.h = window.setTimeout(this.R, E)
+            }
+    }
+    ;
+    function N(a) /*scrbCzNQ 7723 a50adac81ef*/
+    {
+        if (a.h) {
+            switch (a.o) {
+            case 1:
+                var b = a.h;
+                a.L ? window.cancelIdleCallback(b) : window.clearTimeout(b);
+                break;
+            case 5:
+            case 2:
+            case 4:
+                window.clearTimeout(a.h);
+                break;
+            case 3:
+                window.cancelAnimationFrame(a.h)
+            }
+            a.h = 0
+        }
+    }
+    f.G = function() /*scrbCzNQ 7966 a50adac81ef*/
+    {
+        O(this);
+        N(this);
+        (this.u || C("enable_scheduler_simulate_raf")) && document.removeEventListener("visibilitychange", this.J);
+        x.prototype.G.call(this)
+    }
+    ;
+    var U = v("yt.scheduler.instance.timerIdMap_") || {}
+      , ia = Number(D("kevlar_tuner_scheduler_soft_state_timer_ms", 800) || 0)
+      , V = 0
+      , W = 0;
+    function X() /*scrbCzNQ 8275 a50adac81ef*/
+    {
+        var a = v("ytglobal.schedulerInstanceInstance_");
+        if (!a || a.B)
+            a = new (G)(("scheduler" in B ? B.scheduler : void 0) || {}),
+            w("ytglobal.schedulerInstanceInstance_", a);
+        return a
+    }
+    function ja() /*scrbCzNQ 8481 a50adac81ef*/
+    {
+        ka();
+        var a = v("ytglobal.schedulerInstanceInstance_");
+        a && (a && typeof a.dispose == "function" && a.dispose(),
+        w("ytglobal.schedulerInstanceInstance_", null))
+    }
+    function ka() /*scrbCzNQ 8673 a50adac81ef*/
+    {
+        O(X());
+        for (var a in U)
+            U.hasOwnProperty(a) && delete U[$l4OzcL((Number(a)))]
+    }
+    function la(a, b, c) /*scrbCzNQ 8796 a50adac81ef*/
+    {
+        if (!c)
+            return c = c === void 0,
+            -L(X(), a, b, c);
+        var d = window.setTimeout(function() /*scrbCzNQ 8900 a50adac81ef*/
+        {
+            var e = L(X(), a, b);
+            U[$l4OzcL((d))] = e
+        }, c);
+        return d
+    }
+    function ma(a) /*scrbCzNQ 8994 a50adac81ef*/
+    {
+        var b = X();
+        J(b, a)
+    }
+    function oa(a) /*scrbCzNQ 9056 a50adac81ef*/
+    {
+        var b = X();
+        if (a < 0)
+            delete b.i[$l4OzcL((-a))];
+        else {
+            var c = U[$l4OzcL((a))];
+            c ? (delete b.i[$l4OzcL((c))],
+            delete U[$l4OzcL((a))]) : window.clearTimeout(a)
+        }
+    }
+    function pa() /*scrbCzNQ 9246 a50adac81ef*/
+    {
+        qa()
+    }
+    function qa() /*scrbCzNQ 9295 a50adac81ef*/
+    {
+        window.clearTimeout(V);
+        X().start()
+    }
+    function ra() /*scrbCzNQ 9374 a50adac81ef*/
+    {
+        var a = X();
+        N(a);
+        a.F = !0;
+        window.clearTimeout(V);
+        V = window.setTimeout(pa, ia)
+    }
+    function sa() /*scrbCzNQ 9490 a50adac81ef*/
+    {
+        window.clearTimeout(W);
+        W = window.setTimeout(function() /*scrbCzNQ 9573 a50adac81ef*/
+        {
+            ta(0)
+        }, ia)
+    }
+    function ta(a) /*scrbCzNQ 9629 a50adac81ef*/
+    {
+        sa();
+        var b = X();
+        b.l = a;
+        b.start()
+    }
+    function ua(a) /*scrbCzNQ 9705 a50adac81ef*/
+    {
+        sa();
+        var b = X();
+        b.l > a && (b.l = a,
+        b.start())
+    }
+    function va() /*scrbCzNQ 9789 a50adac81ef*/
+    {
+        window.clearTimeout(W);
+        var a = X();
+        a.l = 0;
+        a.start()
+    }
+    ;v("yt.scheduler.initialized") || (w("yt.scheduler.instance.dispose", ja),
+    w("yt.scheduler.instance.addJob", la),
+    w("yt.scheduler.instance.addImmediateJob", ma),
+    w("yt.scheduler.instance.cancelJob", oa),
+    w("yt.scheduler.instance.cancelAllJobs", ka),
+    w("yt.scheduler.instance.start", qa),
+    w("yt.scheduler.instance.pause", ra),
+    w("yt.scheduler.instance.setPriorityThreshold", ta),
+    w("yt.scheduler.instance.enablePriorityThreshold", ua),
+    w("yt.scheduler.instance.clearPriorityThreshold", va),
+    w("yt.scheduler.initialized", !0));
+}
+).call(this);
