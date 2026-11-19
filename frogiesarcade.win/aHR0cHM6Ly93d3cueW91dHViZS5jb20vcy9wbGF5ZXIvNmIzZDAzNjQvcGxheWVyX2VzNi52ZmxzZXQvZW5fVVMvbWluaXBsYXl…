@@ -1,0 +1,371 @@
+$Hednoc([87, 0, 0, 0, 12, 0, 0, 0, 27, 0, 0, 0, 0, 90, 0, 0, 0, 27, 0, 0, 0, 0, 211, 0, 0, 0, 28, 0, 0, 0, 0, 237, 9, 0, 0, 29, 0, 0, 0, 0, 87, 10, 0, 0, 29, 0, 0, 0, 0, 189, 10, 0, 0, 1, 0, 0, 0, 0, 190, 10, 0, 0, 29, 0, 0, 0, 0, 226, 10, 0, 0, 1, 0, 0, 0, 0, 235, 10, 0, 0, 29, 0, 0, 0, 0, 9, 11, 0, 0, 1, 0, 0, 0, 0, 30, 11, 0, 0, 1, 0, 0, 0, 0, 31, 11, 0, 0, 29, 0, 0, 0, 0, 67, 11, 0, 0, 1, 0, 0, 0, 0, 85, 11, 0, 0, 1, 0, 0, 0, 0, 86, 11, 0, 0, 29, 0, 0, 0, 0, 130, 11, 0, 0, 1, 0, 0, 0, 0, 149, 11, 0, 0, 1, 0, 0, 0, 0, 150, 11, 0, 0, 29, 0, 0, 0, 0, 195, 11, 0, 0, 1, 0, 0, 0, 0, 205, 11, 0, 0, 1, 0, 0, 0, 0, 206, 11, 0, 0, 29, 0, 0, 0, 0, 242, 11, 0, 0, 1, 0, 0, 0, 0, 125, 12, 0, 0, 29, 0, 0, 0, 0, 166, 12, 0, 0, 1, 0, 0, 0, 0, 171, 12, 0, 0, 1, 0, 0, 0, 0, 235, 12, 0, 0, 1, 0, 0, 0, 0, 241, 12, 0, 0, 1, 0, 0, 0, 0, 116, 13, 0, 0, 1, 0, 0, 0, 0, 122, 13, 0, 0, 1, 0, 0, 0, 0, 176, 13, 0, 0, 1, 0, 0, 0, 0, 182, 13, 0, 0, 1, 0, 0, 0, 0, 33, 14, 0, 0, 1, 0, 0, 0, 0, 37, 14, 0, 0, 1, 0, 0, 0, 0, 160, 14, 0, 0, 1, 0, 0, 0, 0, 164, 14, 0, 0, 1, 0, 0, 0, 0, 80, 15, 0, 0, 1, 0, 0, 0, 0, 84, 15, 0, 0, 1, 0, 0, 0, 0, 148, 15, 0, 0, 1, 0, 0, 0, 0, 152, 15, 0, 0, 1, 0, 0, 0, 0, 29, 16, 0, 0, 1, 0, 0, 0, 0, 33, 16, 0, 0, 1, 0, 0, 0, 0, 121, 16, 0, 0, 1, 0, 0, 0, 0, 125, 16, 0, 0, 1, 0, 0, 0, 0, 222, 16, 0, 0, 1, 0, 0, 0, 0, 226, 16, 0, 0, 1, 0, 0, 0, 0, 64, 17, 0, 0, 1, 0, 0, 0, 0, 69, 17, 0, 0, 1, 0, 0, 0, 0, 138, 17, 0, 0, 1, 0, 0, 0, 0, 144, 17, 0, 0, 1, 0, 0, 0, 0, 212, 17, 0, 0, 1, 0, 0, 0, 0, 217, 17, 0, 0, 1, 0, 0, 0, 0, 53, 18, 0, 0, 1, 0, 0, 0, 0, 59, 18, 0, 0, 1, 0, 0, 0, 0, 138, 18, 0, 0, 1, 0, 0, 0, 0, 142, 18, 0, 0, 1, 0, 0, 0, 0, 242, 18, 0, 0, 1, 0, 0, 0, 0, 246, 18, 0, 0, 1, 0, 0, 0, 0, 163, 19, 0, 0, 1, 0, 0, 0, 0, 167, 19, 0, 0, 1, 0, 0, 0, 0, 87, 20, 0, 0, 1, 0, 0, 0, 0, 91, 20, 0, 0, 1, 0, 0, 0, 0, 178, 21, 0, 0, 29, 0, 0, 0, 0, 116, 22, 0, 0, 29, 0, 0, 0, 0, 202, 22, 0, 0, 29, 0, 0, 0, 0, 82, 23, 0, 0, 29, 0, 0, 0, 0, 140, 23, 0, 0, 29, 0, 0, 0, 0, 78, 24, 0, 0, 29, 0, 0, 0, 0, 148, 24, 0, 0, 29, 0, 0, 0, 0, 76, 25, 0, 0, 29, 0, 0, 0, 0, 144, 25, 0, 0, 29, 0, 0, 0, 0, 219, 25, 0, 0, 29, 0, 0, 0, 0, 33, 26, 0, 0, 29, 0, 0, 0, 0, 167, 26, 0, 0, 29, 0, 0, 0, 0, 44, 27, 0, 0, 29, 0, 0, 0, 0, 107, 27, 0, 0, 29, 0, 0, 0, 0, 103, 29, 0, 0, 10, 0, 0, 0, 1, 3, 0, 0, 0, 116, 111, 112, 151, 29, 0, 0, 10, 0, 0, 0, 1, 3, 0, 0, 0, 116, 111, 112, 84, 30, 0, 0, 29, 0, 0, 0, 0, 134, 30, 0, 0, 1, 0, 0, 0, 0, 139, 30, 0, 0, 1, 0, 0, 0, 0, 158, 30, 0, 0, 1, 0, 0, 0, 0, 162, 30, 0, 0, 1, 0, 0, 0, 0, 68, 31, 0, 0, 29, 0, 0, 0, 0, 28, 32, 0, 0, 29, 0, 0, 0, 0, 166, 32, 0, 0, 29, 0, 0, 0, 0, 211, 32, 0, 0, 29, 0, 0, 0, 0, 34, 33, 0, 0, 29, 0, 0, 0, 0], "85b583d8520");
+(function(g) /*scrbCzNQ 12 85b583d8520*/
+{
+    var window = this;
+    'use strict';
+    var jAb = function(a, b) /*scrbCzNQ 90 85b583d8520*/
+    {
+        g.qn(a.player.getRootNode(), "ytp-player-minimized", b)
+    }
+      , kAb = class extends g.Z {
+        constructor(a, b) /*scrbCzNQ 211 85b583d8520*/
+        {
+            super({
+                G: "button",
+                Fa: ["ytp-miniplayer-expand-watch-page-button", "ytp-button", "ytp-miniplayer-button-top-left"],
+                X: {
+                    title: "{{title}}",
+                    "data-tooltip-target-id": "ytp-miniplayer-expand-watch-page-button",
+                    "aria-keyshortcuts": "i",
+                    "data-title-no-tooltip": "{{data-title-no-tooltip}}"
+                },
+                Y: [a.O().L ? {
+                    G: "svg",
+                    X: {
+                        height: "24",
+                        viewBox: "0 0 24 24",
+                        width: "24"
+                    },
+                    Y: [{
+                        G: "path",
+                        X: {
+                            d: "M21.20 3.01C21.69 3.06 22.15 3.29 22.48 3.65C22.81 4.02 23.00 4.50 23 5V11H21V5H3V19H13V21H3L2.79 20.99C2.33 20.94 1.91 20.73 1.58 20.41C1.26 20.08 1.05 19.66 1.01 19.20L1 19V5C0.99 4.50 1.18 4.02 1.51 3.65C1.84 3.29 2.30 3.06 2.79 3.01L3 3H21L21.20 3.01ZM12.10 6.00L12 6H5L4.89 6.00C4.65 6.03 4.42 6.14 4.25 6.33C4.09 6.51 3.99 6.75 4 7V12L4.00 12.10C4.02 12.33 4.12 12.54 4.29 12.70C4.45 12.86 4.66 12.97 4.89 12.99L5 13H12L12.10 12.99C12.33 12.97 12.54 12.87 12.70 12.70C12.87 12.54 12.97 12.33 12.99 12.10L13 12V7C13.00 6.75 12.90 6.51 12.74 6.32C12.57 6.14 12.34 6.03 12.10 6.00ZM6 11V8H11V11H6ZM21 13H15V19C15 19.26 15.10 19.51 15.29 19.70C15.48 19.89 15.73 20 16 20C16.26 20 16.51 19.89 16.70 19.70C16.89 19.51 17 19.26 17 19V16.41L21.29 20.70C21.38 20.80 21.49 20.87 21.61 20.93C21.73 20.98 21.87 21.01 22.00 21.01C22.13 21.01 22.26 20.98 22.39 20.93C22.51 20.88 22.62 20.81 22.71 20.71C22.81 20.62 22.88 20.51 22.93 20.39C22.98 20.26 23.01 20.13 23.01 20.00C23.01 19.87 22.98 19.73 22.93 19.61C22.87 19.49 22.80 19.38 22.70 19.29L18.41 15H21C21.26 15 21.51 14.89 21.70 14.70C21.89 14.51 22 14.26 22 14C22 13.73 21.89 13.48 21.70 13.29C21.51 13.10 21.26 13 21 13Z",
+                            fill: "white"
+                        }
+                    }]
+                } : {
+                    G: "svg",
+                    X: {
+                        height: "24px",
+                        version: "1.1",
+                        viewBox: "0 0 24 24",
+                        width: "24px"
+                    },
+                    Y: [{
+                        G: "g",
+                        X: {
+                            fill: "none",
+                            "fill-rule": "evenodd",
+                            stroke: "none",
+                            "stroke-width": "1"
+                        },
+                        Y: [{
+                            G: "g",
+                            X: {
+                                transform: "translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) "
+                            },
+                            Y: [{
+                                G: "path",
+                                X: {
+                                    d: "M19,19 L5,19 L5,5 L12,5 L12,3 L5,3 C3.89,3 3,3.9 3,5 L3,19 C3,20.1 3.89,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,12 L19,12 L19,19 Z M14,3 L14,5 L17.59,5 L7.76,14.83 L9.17,16.24 L19,6.41 L19,10 L21,10 L21,3 L14,3 Z",
+                                    fill: "#fff",
+                                    "fill-rule": "nonzero"
+                                }
+                            }]
+                        }]
+                    }]
+                }]
+            });
+            this.J = a;
+            this.listen("click", this.onClick, this);
+            this.updateValue("title", g.SL(a, "Expand", "i"));
+            this.update({
+                "data-title-no-tooltip": "Expand"
+            });
+            this.addOnDisposeCallback(g.QL(b.kf(), this.element))
+        }
+        onClick() /*scrbCzNQ 2541 85b583d8520*/
+        {
+            g.EL(this.J, "onExpandMiniplayer")
+        }
+    }
+    ;
+    var lAb = class extends g.Z {
+        constructor(a) /*scrbCzNQ 2647 85b583d8520*/
+        {
+            super({
+                G: "div",
+                U: "ytp-miniplayer-ui"
+            });
+            this.K = this.C = !1;
+            this.Cc = {
+                Ez: () => (/*scrbCzNQ 2750 85b583d8520*/
+                this.Ez),
+                OV: b => /*scrbCzNQ 2795 85b583d8520*/
+                {
+                    ;this.OV(b)
+                }
+                ,
+                JN: () => (/*scrbCzNQ 2847 85b583d8520*/
+                this.JN),
+                nextButton: () => (/*scrbCzNQ 2902 85b583d8520*/
+                this.nextButton),
+                progressBar: () => (/*scrbCzNQ 2966 85b583d8520*/
+                this.progressBar),
+                kv: () => (/*scrbCzNQ 3022 85b583d8520*/
+                this.kv)
+            };
+            this.player = a;
+            this.V(a, "minimized", this.Lh);
+            this.V(a, "onStateChange", this.OV);
+            this.V(a, "documentpictureinpicturechange", this.ba)
+        }
+        show() /*scrbCzNQ 3197 85b583d8520*/
+        {
+            this.j = new (g.cn)(this.S,null,this);
+            this.j.start();
+            if (!this.C) {
+                this.tooltip = new (g.Gtb)(this.player,this);
+                g.L(this, this.tooltip);
+                g.aM(this.player, this.tooltip.element, 4);
+                var a = this.tooltip;
+                a.FB = !0;
+                g.TL(a);
+                this.ff = new (g.jsb)(this.player);
+                g.L(this, this.ff);
+                this.progressBar = new (g.ftb)(this.player,this,!1);
+                g.L(this, this.progressBar);
+                g.aM(this.player, this.progressBar.element, 4);
+                this.A = new (g.Z)({
+                    G: "div",
+                    U: "ytp-miniplayer-scrim"
+                });
+                g.L(this, this.A);
+                this.A.Aa(this.element);
+                this.V(this.A.element, "click", this.L);
+                a = new (g.Z)({
+                    G: "button",
+                    Fa: ["ytp-miniplayer-close-button", "ytp-button"],
+                    X: {
+                        "aria-label": "Close"
+                    },
+                    Y: [g.Su()]
+                });
+                g.L(this, a);
+                a.Aa(this.A.element);
+                this.V(a.element, "click", this.D);
+                a = new (kAb)(this.player,this);
+                g.L(this, a);
+                a.Aa(this.A.element);
+                this.B = new (g.Z)({
+                    G: "div",
+                    U: "ytp-miniplayer-controls"
+                });
+                g.L(this, this.B);
+                this.B.Aa(this.A.element);
+                this.V(this.B.element, "click", this.L);
+                var b = new (g.Z)({
+                    G: "div",
+                    U: "ytp-miniplayer-button-container"
+                });
+                g.L(this, b);
+                b.Aa(this.B.element);
+                a = new (g.Z)({
+                    G: "div",
+                    U: "ytp-miniplayer-play-button-container"
+                });
+                g.L(this, a);
+                a.Aa(this.B.element);
+                let c = new (g.Z)({
+                    G: "div",
+                    U: "ytp-miniplayer-button-container"
+                });
+                g.L(this, c);
+                c.Aa(this.B.element);
+                this.JN = new (g.Z1)(this.player,this,!1);
+                g.L(this, this.JN);
+                this.JN.Aa(b.element);
+                b = new (g.dtb)(this.player,this);
+                g.L(this, b);
+                b.Aa(a.element);
+                this.nextButton = new (g.Z1)(this.player,this,!0);
+                g.L(this, this.nextButton);
+                this.nextButton.Aa(c.element);
+                this.kv = new (g.Atb)(this.player,this,0);
+                g.L(this, this.kv);
+                this.kv.Aa(this.A.element);
+                this.Ez = new (g.Z)({
+                    G: "div",
+                    U: "ytp-miniplayer-buttons"
+                });
+                g.L(this, this.Ez);
+                g.aM(this.player, this.Ez.element, 4);
+                a = new (g.Z)({
+                    G: "button",
+                    Fa: ["ytp-miniplayer-close-button", "ytp-button"],
+                    X: {
+                        "aria-label": "Close"
+                    },
+                    Y: [g.Su()]
+                });
+                g.L(this, a);
+                a.Aa(this.Ez.element);
+                this.V(a.element, "click", this.D);
+                a = new (g.Z)({
+                    G: "button",
+                    Fa: ["ytp-miniplayer-replay-button", "ytp-button"],
+                    X: {
+                        "aria-label": "Close"
+                    },
+                    Y: [g.bv()]
+                });
+                g.L(this, a);
+                a.Aa(this.Ez.element);
+                this.V(a.element, "click", this.ga);
+                a = new (kAb)(this.player,this);
+                g.L(this, a);
+                a.Aa(this.Ez.element);
+                this.V(this.player, "presentingplayerstatechange", this.W);
+                this.V(this.player, "appresize", this.lc);
+                this.V(this.player, "fullscreentoggled", this.lc);
+                this.lc();
+                this.C = !0
+            }
+            this.player.getPlayerState() !== 0 && super.show();
+            this.progressBar.show();
+            this.player.unloadModule("annotations_module")
+        }
+        hide() /*scrbCzNQ 5554 85b583d8520*/
+        {
+            this.j && (this.j.dispose(),
+            this.j = void 0);
+            super.hide();
+            this.player.isMinimized() || (this.C && this.progressBar.hide(),
+            this.player.loadModule("annotations_module"))
+        }
+        ka() /*scrbCzNQ 5748 85b583d8520*/
+        {
+            this.j && (this.j.dispose(),
+            this.j = void 0);
+            super.ka()
+        }
+        D() /*scrbCzNQ 5834 85b583d8520*/
+        {
+            this.player.N("kevlar_watch_while_v2") || this.player.stopVideo();
+            g.EL(this.player, "onCloseMiniplayer")
+        }
+        ga() /*scrbCzNQ 5970 85b583d8520*/
+        {
+            this.player.playVideo()
+        }
+        L(a) /*scrbCzNQ 6028 85b583d8520*/
+        {
+            if (a.target === this.A.element || a.target === this.B.element)
+                this.player.getPlayerStateObject().isOrWillBePlaying() ? this.player.pauseVideo() : this.player.playVideo()
+        }
+        Lh() /*scrbCzNQ 6222 85b583d8520*/
+        {
+            jAb(this, this.player.isMinimized())
+        }
+        ba() /*scrbCzNQ 6292 85b583d8520*/
+        {
+            jAb(this, this.player.ji());
+            g.qn(this.player.getRootNode(), "ytp-player-document-picture-in-picture", this.player.ji());
+            this.K = this.player.ji()
+        }
+        onProgress() /*scrbCzNQ 6476 85b583d8520*/
+        {
+            this.progressBar.Id();
+            this.kv.Id()
+        }
+        S() /*scrbCzNQ 6544 85b583d8520*/
+        {
+            this.onProgress();
+            this.j && this.j.start()
+        }
+        W(a) /*scrbCzNQ 6619 85b583d8520*/
+        {
+            a.state.va(32) && this.tooltip.hide()
+        }
+        lc() /*scrbCzNQ 6689 85b583d8520*/
+        {
+            var a = this.player.nb().getPlayerSize().width;
+            g.g6a(this.progressBar, 0, a, !1);
+            g.SU(this.progressBar)
+        }
+        OV(a) /*scrbCzNQ 6823 85b583d8520*/
+        {
+            if (this.player.isMinimized() || this.player.N("web_watch_pip") && this.K)
+                a === 0 ? this.hide() : this.show()
+        }
+        kf() /*scrbCzNQ 6956 85b583d8520*/
+        {
+            return this.tooltip
+        }
+        dA(a, b, c, d, e) /*scrbCzNQ 7019 85b583d8520*/
+        {
+            var f = 0
+              , h = 0
+              , k = 0
+              , l = g.We(a);
+            d = b && (g.kn(b, "ytp-prev-button") || g.kn(b, "ytp-next-button"));
+            if (b) {
+                c = g.kn(b, "ytp-play-button");
+                let m = g.kn(b, "ytp-miniplayer-expand-watch-page-button");
+                d ? f = k = 12 : c ? (b = g.Ue(b, this.element),
+                k = b.x,
+                f = b.y - 12) : m && (k = g.kn(b, "ytp-miniplayer-button-top-left"),
+                f = g.Ue(b, this.element),
+                b = g.We(b),
+                k ? (k = 8,
+                f = f.y + 40) : (k = f.x - l.width + b.width,
+                f = f.y - 20))
+            } else
+                k = c - l.width / 2,
+                h = 25 + (e || 0);
+            b = this.player.nb().getPlayerSize();
+            e = f + (e || 0);
+            l = g.Dd(k, 0, b.width - l.width - 12);
+            e ? (a.style.$gafo1Ltop = `${e}px`,
+            a.style.bottom = "") : (a.style.$gafo1Ltop = "",
+            a.style.bottom = `${h}px`);
+            a.style.left = `${l}px`;
+            h = g.kn(a, "ytp-preview");
+            a.style.visibility = d && h && b.height < 225 ? "hidden" : ""
+        }
+    }
+    ;
+    g.vT("miniplayer", class extends g.R1 {
+        constructor(a) /*scrbCzNQ 7764 85b583d8520*/
+        {
+            super(a);
+            this.A = new (g.z0)(this);
+            this.j = new (lAb)(this.player);
+            this.j.hide();
+            g.aM(this.player, this.j.element, 4);
+            a.isMinimized() && (this.load(),
+            g.qn(a.getRootNode(), "ytp-player-minimized", !0))
+        }
+        onVideoDataChange() /*scrbCzNQ 8004 85b583d8520*/
+        {
+            if (this.player.getVideoData()) {
+                var a = this.player.getVideoAspectRatio()
+                  , b = 16 / 9;
+                a = a > b + .1 || a < b - .1;
+                g.qn(this.player.getRootNode(), "ytp-rounded-miniplayer-not-regular-wide-video", a)
+            }
+        }
+        create() /*scrbCzNQ 8220 85b583d8520*/
+        {
+            super.create();
+            this.A.V(this.player, "videodatachange", this.onVideoDataChange);
+            this.onVideoDataChange()
+        }
+        Zu() /*scrbCzNQ 8358 85b583d8520*/
+        {
+            return !1
+        }
+        load() /*scrbCzNQ 8403 85b583d8520*/
+        {
+            this.player.hideControls();
+            this.j.show()
+        }
+        unload() /*scrbCzNQ 8482 85b583d8520*/
+        {
+            this.player.showControls();
+            this.j.hide()
+        }
+    }
+    );
+}
+)(_yt_player);
