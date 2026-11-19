@@ -1,0 +1,227 @@
+$Hednoc([48, 0, 0, 0, 11, 0, 0, 0, 27, 0, 0, 0, 0, 152, 0, 0, 0, 28, 0, 0, 0, 0, 210, 0, 0, 0, 28, 0, 0, 0, 0, 18, 1, 0, 0, 9, 0, 0, 0, 0, 30, 1, 0, 0, 2, 0, 0, 0, 0, 104, 1, 0, 0, 28, 0, 0, 0, 0, 7, 2, 0, 0, 28, 0, 0, 0, 0, 48, 2, 0, 0, 28, 0, 0, 0, 0, 134, 2, 0, 0, 1, 0, 0, 0, 0, 136, 2, 0, 0, 1, 0, 0, 0, 0, 183, 2, 0, 0, 28, 0, 0, 0, 0, 21, 3, 0, 0, 9, 0, 0, 0, 0, 33, 3, 0, 0, 2, 0, 0, 0, 0, 47, 3, 0, 0, 9, 0, 0, 0, 0, 57, 3, 0, 0, 2, 0, 0, 0, 0, 81, 3, 0, 0, 9, 0, 0, 0, 0, 91, 3, 0, 0, 2, 0, 0, 0, 0, 121, 3, 0, 0, 28, 0, 0, 0, 0, 173, 3, 0, 0, 28, 0, 0, 0, 0, 137, 4, 0, 0, 29, 0, 0, 0, 0, 226, 4, 0, 0, 9, 0, 0, 0, 0, 236, 4, 0, 0, 2, 0, 0, 0, 0, 254, 4, 0, 0, 9, 0, 0, 0, 0, 8, 5, 0, 0, 2, 0, 0, 0, 0, 34, 5, 0, 0, 9, 0, 0, 0, 0, 44, 5, 0, 0, 2, 0, 0, 0, 0, 110, 5, 0, 0, 29, 0, 0, 0, 0, 150, 5, 0, 0, 1, 0, 0, 0, 0, 152, 5, 0, 0, 1, 0, 0, 0, 0, 246, 5, 0, 0, 29, 0, 0, 0, 0, 70, 6, 0, 0, 29, 0, 0, 0, 0, 143, 6, 0, 0, 29, 0, 0, 0, 0, 19, 7, 0, 0, 29, 0, 0, 0, 0, 189, 7, 0, 0, 29, 0, 0, 0, 0, 65, 8, 0, 0, 29, 0, 0, 0, 0, 126, 8, 0, 0, 29, 0, 0, 0, 0, 181, 8, 0, 0, 29, 0, 0, 0, 0, 21, 9, 0, 0, 29, 0, 0, 0, 0, 14, 10, 0, 0, 1, 0, 0, 0, 0, 103, 10, 0, 0, 1, 0, 0, 0, 0, 105, 10, 0, 0, 1, 0, 0, 0, 0, 27, 12, 0, 0, 1, 0, 0, 0, 0, 126, 14, 0, 0, 29, 0, 0, 0, 0, 79, 15, 0, 0, 29, 0, 0, 0, 0, 168, 15, 0, 0, 29, 0, 0, 0, 0, 230, 15, 0, 0, 29, 0, 0, 0, 0, 226, 18, 0, 0, 9, 0, 0, 0, 0, 250, 18, 0, 0, 2, 0, 0, 0, 0], "f37bec230c8");
+(function() /*scrbCzNQ 11 f37bec230c8*/
+{
+    /*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+    'use strict';
+    var l = function() /*scrbCzNQ 152 f37bec230c8*/
+    {
+        var a = h
+          , b = 0;
+        return function() /*scrbCzNQ 210 f37bec230c8*/
+        {
+            return b < a.length ? {
+                done: !1,
+                value: a[$l4OzcL((b++))]
+            } : {
+                done: !0
+            }
+        }
+    }
+      , m = this || self
+      , n = /^[\w+/_-]+[=]{0,2}$/
+      , p = null
+      , q = function(a) /*scrbCzNQ 360 f37bec230c8*/
+    {
+        return (a = a.querySelector && a.querySelector("script[nonce]")) && (a = a.nonce || a.getAttribute("nonce")) && n.test(a) ? a : ""
+    }
+      , r = function(a, b) /*scrbCzNQ 519 f37bec230c8*/
+    {
+        function e() /*scrbCzNQ 560 f37bec230c8*/
+        {}
+        e.prototype = b.prototype;
+        a.i = b.prototype;
+        a.prototype = new (e);
+        a.prototype.constructor = a;
+        a.h = function(c, g, k) /*scrbCzNQ 695 f37bec230c8*/
+        {
+            for (var f = Array(arguments.length - 2), d = 2; d < arguments.length; d++)
+                f[$l4OzcL((d - 2))] = arguments[$l4OzcL((d))];
+            return b.prototype[$l4OzcL((g))].apply(c, f)
+        }
+    }
+      , t = function(a) /*scrbCzNQ 889 f37bec230c8*/
+    {
+        return a
+    };
+    function u(a) /*scrbCzNQ 941 f37bec230c8*/
+    {
+        if (Error.captureStackTrace)
+            Error.captureStackTrace(this, u);
+        else {
+            var b = Error().stack;
+            b && (this.stack = b)
+        }
+        a && (this.message = String(a))
+    }
+    r(u, Error);
+    u.prototype.name = "CustomError";
+    var v = function(a, b) /*scrbCzNQ 1161 f37bec230c8*/
+    {
+        a = a.split("%s");
+        for (var e = "", c = a.length - 1, g = 0; g < c; g++)
+            e += a[$l4OzcL((g))] + (g < b.length ? b[$l4OzcL((g))] : "%s");
+        u.call(this, e + a[$l4OzcL((c))])
+    };
+    r(v, u);
+    v.prototype.name = "AssertionError";
+    var w = function(a, b) /*scrbCzNQ 1390 f37bec230c8*/
+    {
+        throw new (v)("Failure" + (a ? ": " + a : ""),Array.prototype.slice.call(arguments, 1));
+    };
+    var x;
+    var A = function(a, b) /*scrbCzNQ 1526 f37bec230c8*/
+    {
+        this.g = b === z ? a : ""
+    };
+    A.prototype.toString = function() /*scrbCzNQ 1606 f37bec230c8*/
+    {
+        return this.g + ""
+    }
+    ;
+    var z = {};
+    var B = function() /*scrbCzNQ 1679 f37bec230c8*/
+    {
+        var a = window.navigator.userAgent.match(/Chrome\/([0-9]+)/);
+        return a ? parseInt(a[1], 10) : 0
+    }
+      , C = function(a) /*scrbCzNQ 1811 f37bec230c8*/
+    {
+        return !!document.currentScript && (-1 != document.currentScript.src.indexOf("?" + a) || -1 != document.currentScript.src.indexOf("&" + a))
+    }
+      , D = function() /*scrbCzNQ 1981 f37bec230c8*/
+    {
+        return "function" == typeof window.__onGCastApiAvailable ? window.__onGCastApiAvailable : null
+    }
+      , F = function(a) /*scrbCzNQ 2113 f37bec230c8*/
+    {
+        a.length ? E(a.shift(), function() /*scrbCzNQ 2174 f37bec230c8*/
+        {
+            F(a)
+        }) : G()
+    }
+      , H = function(a) /*scrbCzNQ 2229 f37bec230c8*/
+    {
+        return "chrome-extension://" + a + "/cast_sender.js"
+    }
+      , E = function(a, b, e) /*scrbCzNQ 2325 f37bec230c8*/
+    {
+        var c = document.createElement("script");
+        c.onerror = b;
+        e && (c.onload = e);
+        if (void 0 === x)
+            if (b = null,
+            (e = m.trustedTypes) && e.createPolicy) {
+                try {
+                    b = e.createPolicy("goog#html", {
+                        createHTML: t,
+                        createScript: t,
+                        createScriptURL: t
+                    })
+                } catch (y) {
+                    ;m.console && m.console.error(y.message)
+                }
+                x = b
+            } else
+                x = b;
+        a = (b = x) ? b.createScriptURL(a) : a;
+        a = new (A)(a,z);
+        a: {
+            try {
+                var g = c && c.ownerDocument
+                  , k = g && (g.defaultView || g.parentWindow);
+                k = k || m;
+                if (k.Element && k.Location) {
+                    var f = k;
+                    break a
+                }
+            } catch (y) {}
+            f = null
+        }
+        if (f && "undefined" != typeof f.HTMLScriptElement && (!c || !(c instanceof f.HTMLScriptElement) && (c instanceof f.Location || c instanceof f.Element))) {
+            f = typeof c;
+            if ("object" == f && null != c || "function" == f)
+                try {
+                    var d = c.constructor.displayName || c.constructor.name || Object.prototype.toString.call(c)
+                } catch (y) {
+                    ;d = "<object could not be stringified>"
+                }
+            else
+                d = void 0 === c ? "undefined" : null === c ? "null" : typeof c;
+            w("Argument is not a %s (or a non-Element, non-Location mock); got: %s", "HTMLScriptElement", d)
+        }
+        a instanceof A && a.constructor === A ? d = a.g : (d = typeof a,
+        w("expected object of type TrustedResourceUrl, got '" + a + "' of type " + ("object" != d ? d : a ? Array.isArray(a) ? "array" : d : "null")),
+        d = "type_error:TrustedResourceUrl");
+        c.src = d;
+        (d = c.ownerDocument && c.ownerDocument.defaultView) && d != m ? d = q(d.document) : (null === p && (p = q(m.document)),
+        d = p);
+        d && c.setAttribute("nonce", d);
+        (document.head || document.documentElement).appendChild(c)
+    }
+      , I = function() /*scrbCzNQ 3710 f37bec230c8*/
+    {
+        var a = B()
+          , b = [];
+        if (1 < a) {
+            var e = a - 1;
+            b.push("//www.gstatic.com/eureka/clank/" + a + "/cast_sender.js");
+            b.push("//www.gstatic.com/eureka/clank/" + e + "/cast_sender.js")
+        }
+        return b
+    }
+      , G = function() /*scrbCzNQ 3919 f37bec230c8*/
+    {
+        var a = D();
+        a && a(!1, "No cast extension found")
+    }
+      , K = function() /*scrbCzNQ 4008 f37bec230c8*/
+    {
+        if (J) {
+            var a = 2
+              , b = D()
+              , e = function() /*scrbCzNQ 4070 f37bec230c8*/
+            {
+                a--;
+                0 == a && b && b(!0)
+            };
+            window.__onGCastApiAvailable = e;
+            E("//www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js", G, e)
+        }
+    }
+      , J = C("loadCastFramework") || C("loadCastApplicationFramework")
+      , L = ["pkedcjkdefgpdelpbcmbmeomcjbeemfm", "enhhojjnijigcajfphajepfemndkmdlo"];
+    if (0 <= window.navigator.userAgent.indexOf("Android") && 0 <= window.navigator.userAgent.indexOf("Chrome/") && window.navigator.presentation) {
+        if (60 <= B()) {
+            K();
+            var M = I();
+            M.push("//www.gstatic.com/eureka/clank/cast_sender.js");
+            F(M)
+        }
+    } else if (!window.chrome || !window.navigator.presentation || 0 <= window.navigator.userAgent.indexOf("Edge"))
+        G();
+    else if (89 <= B()) {
+        K();
+        var N = I(), O = N.push, P = O.apply, h = L.map(H), Q;
+        if (h instanceof Array)
+            Q = h;
+        else {
+            var R, S = "undefined" != typeof Symbol && Symbol.iterator && h[$l4OzcL((Symbol.iterator))];
+            R = S ? S.call(h) : {
+                next: l()
+            };
+            for (var T, U = []; !(T = R.next()).done; )
+                U.push(T.value);
+            Q = U
+        }
+        P.call(O, N, Q);
+        N.push("//www.gstatic.com/eureka/clank/cast_sender.js");
+        F(N)
+    } else
+        K(),
+        F(L.map(H));
+}
+).call(this);
